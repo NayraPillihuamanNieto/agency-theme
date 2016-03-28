@@ -1,0 +1,238 @@
+doctype
+html
+  head
+    title Agency Team
+    meta( charset='utf-8')
+    meta( name='description', content='Baking Bootstrap Snippets with Jade' )
+    meta( http-equiv='X-UA-Compatible', content='IE=edge' )
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="assets/css/bootstrap.min.css")
+    link(rel="stylesheet" href="assets/css/bootstrap.css")
+    link(rel="stylesheet" href="assets/css/main.css")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script" type='text/css')
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" type='text/css')
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" type='text/css')
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" type='text/css')
+    link(rel="stylesheet" href="assets/font-awesome/css/font-awesome.css")
+
+
+ body
+    mixin social
+                i.fa.fa-twitter
+                i.fa.fa-facebook
+                i.fa.fa-linkedin
+      header.header_area
+            nav.navbar.navbar-default.navbar-fixed-top
+                .container
+                    .navbar-header
+                        button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar")
+                            span.sr-only Toggle Navigation
+                            span.icon-bar
+                            .span.icon-bar
+                            span.icon-bar
+                        a.navbar-brand(href="#") Start Bootstrap
+                    #navbar.navbar-collapse.collapse
+                        ul.nav.navbar-nav.nav-before 
+                            li
+                                a(href="#") SERVICES
+                            li
+                                a(href="#") PORTFOLIO
+                            li
+                                a(href="#") ABOUT
+                            li
+                                a(href="#") TEAM
+                            li
+                                a(href="#") CONTACT
+    section.background
+        div.container
+            div.texto(style="padding-top:15em;")
+                h1 Welcome To Our Studio!
+                h1 IT'S NICE TO MEET YOU
+                a.page-scroll.btn.btn-xl( href="#" ) Tell Me More
+    section.two
+        div.container
+            div.row(style="padding-top:8em;")
+                h1 SERVICES
+                h3 Lorem ipsum dolor sit amet consectetur.
+            .row
+                .col-md-4
+                    div.iconos
+                        i.fa.fa-shopping-cart
+                    h4 E-Commerce
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                .col-md-4
+                    div.iconos
+                        i.fa.fa-laptop
+                    h4 Responsive Design
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                .col-md-4
+                    div.iconos
+                        i.fa.fa-lock
+                    h4 Web Security
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    section.three
+        div.container
+            div.row(style="padding-top:8em;")
+                h1 Portfolio
+                h3 Lorem ipsum dolor sit amet consectetur.                  
+                div.row
+                    div.col-md-4
+                        div.img
+                            img(src="img/portfolio/roundicons.png")
+                            div.letter
+                                h4 Round Icons
+                                h5 
+                                    em Graphic Design            
+                    div.col-md-4
+                        div.img
+                            img(src="img/portfolio/startup-framework.png")
+                            div.letter
+                                h4 Startup Framework
+                                h5 
+                                    em Website Design            
+                    div.col-md-4
+                        div.img-porta
+                            img(src="img/portfolio/treehouse.png")
+                            div.letter
+                                h4 Treehouse
+                                h5 
+                                    em Website Design                            
+                div.row
+                    div.col-md-4
+                        div.img
+                            img(src="img/portfolio/golden.png")
+                            div.letter
+                                h4 Golden
+                                h5 
+                                    em Website Design            
+                    div.col-md-4
+                        div.img
+                            img(src="img/portfolio/escape.png")
+                            div.letter
+                                h4 Escape
+                                h5 
+                                    em Website Design            
+                    div.col-md-4
+                        div.img
+                            img(src="img/portfolio/dreams.png")
+                            div.letter
+                                h4 Dreams
+                                h5 
+                                    em Website Design
+    section.four
+        div.container
+                div.row
+                        h1 ABOUT
+
+                        p 
+                            em Lorem ipsum dolor sit amet consectetur.                                                                                       
+                div.row
+                    div.col-md-4.text-right
+                        h4 2009-2011
+                        h4 Our Humble Beginnings
+                        p= parrafo2    
+                    div.col-md-4
+                        div.circulo-about
+                            img(src="img/about/1.jpg")
+                hr                                       
+                div.row
+                    div.col-md-4.col-md-offset-4  
+                        div.circulo-about
+                            img(src="img/about/2.jpg")
+                    div.col-md-4.text-left                
+                        h4 MARCH 2011
+                        h4 An Agency is Born
+                        p= parrafo2 
+                hr                
+                div.row
+                    div.col-md-4.text-right
+                        h4 DECEMBER 2012
+                        h4 Transition to Full Service
+                        p= parrafo2    
+                    div.col-md-4
+                        div.circulo-about
+                            img(src="img/about/3.jpg")
+                hr                                        
+                div.row
+                    div.col-md-4.col-md-offset-4  
+                        div.circulo-about
+                            img(src="img/about/4.jpg")
+                    div.col-md-4.text-left               
+                        h4 JULY 2014
+                        H4 Phase Two Expansion
+                        p= parrafo2 
+                hr               
+                div.row
+                    div.col-md-4.col-md-offset-4  
+                        div.circulo2
+                                h4 BE PART OF OUR STORY!
+  
+    section.five
+            div.container
+                div.row
+                        h1 OUR AMAZING TEAM
+                        h3 Lorem ipsum dolor sit amet consectetur.
+                div.row
+                    div.col-md-4
+                        div.circulo
+                            img(src="img/team/1.jpg")
+                        h4 Kay Garland
+                        p Lead Designer
+                        +social  
+                                   
+                    div.col-md-4
+                        div.circulo
+                            img(src="img/team/2.jpg")
+                        h4 Larry Parker
+                        p Lead Marketer
+                        +social           
+                    div.col-md-4
+                        div.circulo
+                            img(src="img/team/3.jpg")
+                        h4 Diana Pertersen
+                        p Lead Developer
+                        +social                  
+                div.row
+                    p.center Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+    section.six
+        div.container
+                div.row
+                    div.col-md-3
+                        img(src="img/logos/envato.jpg")
+                    div.col-md-3
+                        img(src="img/logos/designmodo.jpg")
+                    div.col-md-3
+                        img(src="img/logos/themeforest.jpg")
+                    div.col-md-3                      
+                        img(src="img/logos/creative-market.jpg")
+    section.seven
+        div.container
+            div.row
+                    h1 CONTACT US
+                    h3 Lorem ipsum dolor sit amet consectetur.             
+            div.row
+                div.col-md-6
+                    form
+                        input.form-control(type="text" placeholder="YOUR NAME *")
+                        input.form-control(type="email" placeholder="YOUR EMAIL *")
+                        input.form-control(type="number" placeholder="YOUR PHONE *")
+                div.col-md-6
+                    form    
+                        
+                        textarea.form-control(rows="11" type="text" placeholder="YOUR MESSAGE *")
+            div.row
+                input.btn.btn-default(type="submit" value="SEND MESSAGE")
+    footer
+        div.container
+            div.row
+                div.col-md-4
+                    h5 Copyright © Your Website 2014 
+                div.col-md-4(style="text-align:center;")
+                    +social
+                div.col-md-4
+                    a(href="#") Privacy Policy    
+                    a(href="#") Terms of Use
+
+script(src="js/jquery.js")
+script(src="js/bootstrap.min.js")
+script(src="js/cbpAnimated.js")
